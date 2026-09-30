@@ -69,9 +69,7 @@ No duplicate rows were found in:
 - Roasting
 - B2B Orders
 
-The E-commerce Sales dataset contains **119,101 duplicate rows**.
-
-These records require further investigation before deciding whether they represent valid repeated transactions or duplicated data. They will not be removed automatically.
+The e-commerce dataset contains 119,101 exact duplicate rows. The duplicates are present throughout the year rather than being concentrated in a single month. Since the dataset does not contain a unique order ID, it is not possible to determine whether identical records represent duplicated data or separate transactions. Therefore, the records are retained for the initial analysis and the limitation is considered when interpreting the results.
 
 ---
 
