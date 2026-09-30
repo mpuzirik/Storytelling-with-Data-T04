@@ -62,3 +62,82 @@ The final presentation will follow this structure:
 6. Recommend actions to remove or reduce the identified bottlenecks.
 7. Show the expected effect of the recommendations where possible.
 8. Conclude whether Bean There Done That is ready for further growth.
+
+   ## 4. Visual Strategy
+
+The final presentation should use only visualizations that directly support the business story.
+
+The exact visualizations will be selected after the KPI analysis is complete.
+
+### Visual 1 - Current Operational Performance
+
+Purpose:
+Show the current overall performance of Bean There Done That.
+
+Possible visual:
+KPI summary, bar chart, or line chart.
+
+Final finding:
+To be added after the KPI analysis.
+
+
+### Visual 2 - Main Bottleneck
+
+Purpose:
+Show the most important operational issue that could limit future growth.
+
+Possible visual:
+Bar chart, capacity comparison, or line chart.
+
+Final finding:
+To be added after the KPI analysis.
+
+
+### Visual 3 - Second Bottleneck or Improvement Opportunity
+
+Purpose:
+Show another area that management should improve.
+
+Possible visual:
+Bar chart, heatmap, or line chart.
+
+Final finding:
+To be added after the KPI analysis.
+
+
+### Visual 4 - Growth Scenario
+
+Purpose:
+Show what could happen if demand increases.
+
+Possible visual:
+Comparison between current performance and expected performance under higher demand.
+
+Final finding:
+To be added after the KPI analysis.
+
+
+### Visual 5 - Expected Outcome of Recommendations
+
+Purpose:
+Show how the proposed recommendations could improve growth readiness.
+
+Possible visual:
+Before-and-after comparison.
+
+Final finding:
+To be added after the KPI analysis.
+
+
+## Visual Design Rules
+
+The final visualizations should:
+
+- show only information that supports the main message
+- use the correct chart type for the data
+- avoid unnecessary colors
+- avoid unnecessary legends
+- avoid unnecessary borders and gridlines
+- use clear labels
+- highlight the most important information
+- be easy for the CEO and management to understand quickly
