@@ -61,15 +61,3 @@ The first analysis identified several key operational figures:
 
 These are initial descriptive results. Further analysis is required before drawing conclusions about the company's readiness for growth.
 
-## Next Steps
-
-The next stage of the project will analyse:
-
-- Sales trends over time
-- Product demand
-- Production performance
-- Inventory and waste
-- Delivery performance
-- Relationships between operational performance and growth
-
-The results will then be transformed into visualizations and a data story for management.
