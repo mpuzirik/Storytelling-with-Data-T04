@@ -110,19 +110,3 @@ The first analysis produced the following descriptive results:
 | Inventory | Finished product scrapped | 48,000 |
 
 > **Note:** The e-commerce and B2B datasets do not contain an explicit order ID. Therefore, the number of rows is currently reported as **sales records** rather than unique orders.
-
----
-
-## Next Data Analysis
-
-The next stage will investigate:
-
-1. Sales development over time.
-2. Demand by coffee product.
-3. Production performance by month and machine.
-4. Rejected batches and quality performance.
-5. Inventory levels and scrapped products.
-6. Delivery performance over time.
-7. Potential relationships between demand, production and operational capacity.
-
-These analyses will provide the basis for the visualizations and storytelling stage of the project.
