@@ -1,34 +1,128 @@
-## 3. Data Understanding
+# Data Understanding
 
-The dataset consists of several operational datasets covering different parts of the company.
+## Dataset Overview
+
+The project uses five operational datasets covering different areas of Bean there Done That's business operations.
+
+| Dataset | Rows | Columns |
+|---|---:|---:|
+| Raw Material Inventory | 72 | 10 |
+| Finished Product Inventory | 36 | 8 |
+| Roasting | 36 | 15 |
+| E-commerce Sales | 240,352 | 9 |
+| B2B Orders | 273 | 8 |
 
 ### Raw Material Inventory
 
-The raw material inventory dataset contains information about products, suppliers, monthly stock levels, scrapped materials, reasons for scrapping, unit prices, stock value and purchases.
+Contains information about raw materials, suppliers, monthly stock levels, scrapped materials, unit prices, stock value and purchases.
 
 ### Finished Product Inventory
 
-The finished product inventory dataset contains information about finished coffee products, monthly stock levels, scrapped products, reasons for scrapping, unit prices and stock value.
+Contains monthly information about finished coffee products, stock levels, scrapped products, reason codes, unit prices and stock value.
 
 The products are:
+
 - Dark Roast
 - Medium Roast
 - Light Roast
 
 ### Roasting
 
-The roasting dataset contains information about the roasting machines, products, workdays, batches, load weight, final weight, setup time, run time, cooling time, packing time and quality failures.
+Contains information about the roasting machines, production activity, batch quantities, production times and quality failures.
 
 The machines are:
+
 - Probat P60
 - Probat Px120
 
 ### E-commerce Sales
 
-The e-commerce dataset contains order information including product, bag type, quantity, value, order date, delivery date, delivery fee, shipping costs and province.
-
-The data covers 2023.
+Contains sales information including product, bag type, quantity, sales value, order date, delivery date, delivery fee, shipping costs and destination province.
 
 ### B2B Orders
 
-The B2B dataset contains information about customers, cities, products, quantities, sales value, delivery dates and shipping costs.
+Contains information about B2B customers, cities, products, quantities, sales value, delivery dates and shipping costs.
+
+---
+
+## Data Quality
+
+An initial data quality check was performed using Python.
+
+### Missing Values
+
+Missing values were found only in the `Reasoncode` fields:
+
+- Raw Material Inventory: 68 missing values
+- Finished Product Inventory: 30 missing values
+
+The other fields contain no missing values.
+
+The missing reason codes are not automatically treated as errors because a missing reason code may indicate that no reason for scrapping was recorded.
+
+### Duplicate Records
+
+No duplicate rows were found in:
+
+- Raw Material Inventory
+- Finished Product Inventory
+- Roasting
+- B2B Orders
+
+The E-commerce Sales dataset contains **119,101 duplicate rows**.
+
+These records require further investigation before deciding whether they represent valid repeated transactions or duplicated data. They will not be removed automatically.
+
+---
+
+## Data Types
+
+The datasets contain:
+
+- Categorical variables such as product, supplier, machine, customer and province.
+- Numerical variables such as quantity, stock level, sales value, stock value and production measures.
+- Date variables in the e-commerce and B2B datasets.
+
+The date fields in the E-commerce Sales dataset were converted to datetime format in Python to allow delivery-time calculations and time-based analysis.
+
+---
+
+## Initial KPI Analysis
+
+The first analysis produced the following descriptive results:
+
+| Area | KPI | Result |
+|---|---|---:|
+| E-commerce | Sales records | 240,352 |
+| E-commerce | Quantity sold | 1,208,471 |
+| E-commerce | Sales value | €17,561,219.89 |
+| E-commerce | Average delivery time | 1.59 days |
+| B2B | Sales records | 273 |
+| B2B | Quantity sold | 16,280 |
+| B2B | Sales value | €421,652 |
+| Production | Total batches | 11,838 |
+| Production | Production output | 795,671.2 kg |
+| Production | Rejected batches | 224 |
+| Production | Rejection rate | 1.89% |
+| Inventory | Raw material stock value | €8,331,132.20 |
+| Inventory | Finished product stock value | €15,243,531.20 |
+| Inventory | Raw material scrapped | 20,040 |
+| Inventory | Finished product scrapped | 48,000 |
+
+> **Note:** The e-commerce and B2B datasets do not contain an explicit order ID. Therefore, the number of rows is currently reported as **sales records** rather than unique orders.
+
+---
+
+## Next Data Analysis
+
+The next stage will investigate:
+
+1. Sales development over time.
+2. Demand by coffee product.
+3. Production performance by month and machine.
+4. Rejected batches and quality performance.
+5. Inventory levels and scrapped products.
+6. Delivery performance over time.
+7. Potential relationships between demand, production and operational capacity.
+
+These analyses will provide the basis for the visualizations and storytelling stage of the project.
