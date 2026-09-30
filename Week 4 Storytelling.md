@@ -180,3 +180,68 @@ Before using a graph in the final presentation, ask:
 5. Is there enough white space?
 6. Are labels easy to read?
 7. Is the visual simple enough for the CEO to understand quickly?
+
+   ## 6. From Exploratory to Explanatory Analysis
+
+The analysis notebook may contain many calculations and visualizations.
+
+The final presentation will not show everything.
+
+Only the findings that directly help answer the main business question will be selected:
+
+Is Bean There Done That operationally ready for further growth?
+
+Each selected finding should be transformed into a simple explanatory visual.
+
+
+## Final Finding Template
+
+For every important finding from the KPI analysis, we will complete the following:
+
+### Finding
+
+What does the data show?
+
+To be completed after the KPI analysis.
+
+
+### Why It Matters
+
+Why is this important for the company's ability to grow?
+
+To be completed after the KPI analysis.
+
+
+### Growth Risk or Opportunity
+
+What could happen if demand increases?
+
+To be completed after the KPI analysis.
+
+
+### Recommended Action
+
+What should management do?
+
+To be completed after the KPI analysis.
+
+
+### Expected Outcome
+
+What improvement do we expect after the recommended action?
+
+To be completed after the KPI analysis.
+
+
+### Best Visualization
+
+Which graph communicates this finding most clearly?
+
+To be selected after the KPI analysis.
+
+
+### Takeaway Title
+
+The final graph title should communicate the main conclusion rather than only describe the data.
+
+To be written after the KPI analysis.
