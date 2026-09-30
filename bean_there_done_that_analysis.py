@@ -112,3 +112,25 @@ print("======================")
 for name, data in datasets.items():
     print(f"\n{name}")
     print(data.describe(include="all"))
+
+# ============================================================
+# 8. COLUMN NAMES AND SAMPLE DATA
+# ============================================================
+
+print("\n\nCOLUMN NAMES AND SAMPLE DATA")
+print("============================")
+
+for name, data in datasets.items():
+
+    print("\n" + "=" * 70)
+    print(name.upper())
+    print("=" * 70)
+
+    print("\nCOLUMN NAMES:")
+    print(data.columns.tolist())
+
+    print("\nFIRST 5 ROWS:")
+    print(data.head())
+
+    print("\n")
+    
