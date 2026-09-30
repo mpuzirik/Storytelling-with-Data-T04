@@ -141,3 +141,42 @@ The final visualizations should:
 - use clear labels
 - highlight the most important information
 - be easy for the CEO and management to understand quickly
+
+## 5. Eliminate Clutter
+
+The final presentation should avoid unnecessary visual elements that make the graphs harder to understand.
+
+For every final graph, we will check whether the following elements are really needed:
+
+- legends
+- borders
+- gridlines
+- data labels
+- multiple colors
+- background elements
+- repeated information
+- long explanations inside the graph
+
+The final visuals should use:
+
+- enough white space
+- clean alignment
+- simple labels
+- consistent formatting
+- direct labels where possible
+- only the most important information
+
+The goal is to make every graph understandable within a few seconds.
+
+
+## Decluttering Checklist
+
+Before using a graph in the final presentation, ask:
+
+1. Does every element add value?
+2. Can anything be removed without losing the message?
+3. Is the most important information easy to see?
+4. Are related elements visually grouped together?
+5. Is there enough white space?
+6. Are labels easy to read?
+7. Is the visual simple enough for the CEO to understand quickly?
