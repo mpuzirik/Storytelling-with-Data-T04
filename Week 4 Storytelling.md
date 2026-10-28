@@ -341,6 +341,66 @@ The analysis does not establish that higher sales caused longer delivery times.
 
 ### From Findings to Recommendations
 
+## 7. Final Finding Template
+
+This template helps turn the analysis into clear findings and recommendations for management.
+
+### Finding 1: E-commerce sales trend
+
+**Finding:** Recorded e-commerce sales increased by approximately 35% from August to September and remained high until December.
+
+**Why it matters:** Higher recorded sales may indicate increasing demand and a need to prepare operations for busier periods.
+
+**Limitation:** The dataset contains 119,101 exact duplicate rows, so the reliability of the absolute sales figures needs to be checked.
+
+**Recommended action:** Validate the e-commerce data before using the sales totals for growth planning.
+
+**Suggested visual:** A line chart showing monthly e-commerce sales.
+
+### Finding 2: Production quality
+
+**Finding:** The overall batch rejection rate was 1.89%. The rate was approximately 2.54% for the Probat Px120 and 1.28% for the Probat P60.
+
+**Why it matters:** Rejected batches may affect production efficiency and the amount of usable coffee produced.
+
+**Limitation:** The differences do not prove that one machine performs worse, because operating conditions and products may differ.
+
+**Recommended action:** Investigate the reasons for rejected batches and compare the machines under similar conditions.
+
+**Suggested visual:** A bar chart comparing rejection rates by machine.
+
+### Finding 3: Finished product waste
+
+**Finding:** The dataset records 48,000 units of scrapped finished product between June and August.
+
+**Why it matters:** This may indicate an opportunity to improve inventory management and reduce waste.
+
+**Limitation:** The data does not explain why the products were scrapped or establish their financial impact.
+
+**Recommended action:** Investigate the reasons for scrapping and review stock levels, demand and product shelf life.
+
+**Suggested visual:** A chart showing monthly finished-product scrapping.
+
+### Finding 4: Delivery performance
+
+**Finding:** The average recorded delivery time was 1.59 days. December had the highest monthly average, at approximately 1.91 days.
+
+**Why it matters:** Delivery performance should be monitored if demand increases.
+
+**Limitation:** The analysis does not establish that higher sales caused longer delivery times.
+
+**Recommended action:** Monitor delivery times during busy periods and investigate the reasons for delays.
+
+**Suggested visual:** A line chart showing average delivery time by month.
+
+### Overall management takeaway
+
+Bean there Done That has recorded periods of higher sales, but the current analysis is not sufficient to confirm whether the company has enough operational capacity to grow next year.
+
+Before making an expansion decision, management should validate the e-commerce data, investigate finished-product waste, review production quality differences and monitor delivery performance. Further analysis of production capacity and resource availability is also needed.
+
+**Main message:** Before expanding, Bean there Done That should validate its data and investigate key operational risks so that management can make a more reliable growth decision.
+
 The selected findings will be used to develop recommendations for management. These recommendations should be based on validated evidence and should distinguish confirmed problems from areas that require further investigation.
 
 The final presentation will use only the visualizations that contribute directly to the business story.
