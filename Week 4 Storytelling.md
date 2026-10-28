@@ -41,13 +41,22 @@ The presentation will:
 
 ## 2. Big Idea
 
-The final Big Idea will be confirmed after the KPI analysis is complete.
+The purpose of this analysis is to determine whether Bean there Done That is operationally ready to grow next year.
 
-Working Big Idea:
+The initial analysis identified several areas that require further attention before making a growth decision:
 
-Bean There Done That has opportunities to resume growth, but we first need to determine whether the current operations can support additional demand without creating new bottlenecks.
+- **Inventory and waste:** Finished product scrapping totals 48,000 units, with scrapping recorded from June to August.
+- **Production quality:** The two roasting machines have different rejection rates. Probat Px120 has a rejection rate of 2.54%, compared with 1.28% for Probat P60.
+- **Sales data quality:** The e-commerce dataset contains 119,101 exact duplicate rows, making the reliability of the absolute sales totals uncertain.
+- **Delivery performance:** Average delivery time is 1.59 days overall, but it increases to 1.91 days in December.
 
-The final Big Idea will be based on the most important findings from the data analysis.
+These findings suggest that inventory management, production quality and data reliability should be investigated before management decides how to expand.
+
+**Working Big Idea:**
+
+Bean there Done That may have opportunities to grow, but management should first investigate inventory waste, production quality differences and sales data reliability to make an informed decision about future expansion.
+
+This is a preliminary conclusion based on the initial analysis. Further validation is needed before making a final recommendation about growth readiness.
 
 
 ## 3. Storyboard
