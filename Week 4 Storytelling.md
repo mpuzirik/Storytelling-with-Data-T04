@@ -199,107 +199,148 @@ The final presentation will use a small number of focused visualizations. Each v
 
 ### Visual Design Principles
 
-All final
 ## 5. Eliminate Clutter
 
-The final presentation should avoid unnecessary visual elements that make the graphs harder to understand.
+The final visualizations should communicate the most important findings clearly and quickly. Unnecessary visual elements will be removed so that the audience can focus on the message.
 
-For every final graph, we will check whether the following elements are really needed:
+### Design Principles
 
-- legends
-- borders
-- gridlines
-- data labels
-- multiple colors
-- background elements
-- repeated information
-- long explanations inside the graph
+**1. Remove unnecessary elements**
 
-The final visuals should use:
+Avoid decorative borders, excessive gridlines, unnecessary legends and repeated information.
 
-- enough white space
-- clean alignment
-- simple labels
-- consistent formatting
-- direct labels where possible
-- only the most important information
+**2. Use clear titles**
 
-The goal is to make every graph understandable within a few seconds.
+Each chart title should communicate the main finding rather than only describe the metric.
 
+For example:
 
-## Decluttering Checklist
+- Instead of "E-commerce Sales by Month", use "E-commerce Sales Increased Sharply in September".
+- Instead of "Rejection Rate by Machine", use "Probat Px120 Has a Higher Recorded Rejection Rate Than Probat P60".
 
-Before using a graph in the final presentation, ask:
+**3. Highlight the important information**
 
-1. Does every element add value?
-2. Can anything be removed without losing the message?
-3. Is the most important information easy to see?
-4. Are related elements visually grouped together?
-5. Is there enough white space?
-6. Are labels easy to read?
-7. Is the visual simple enough for the CEO to understand quickly?
+Use a limited number of colors and highlight only the data points that support the main message.
 
+**4. Keep labels readable**
+
+Use clear axis labels, consistent units and appropriate number formatting. Avoid overcrowding the charts with data labels.
+
+**5. Use appropriate chart types**
+
+- Line charts for changes over time.
+- Bar charts for comparisons between machines or categories.
+- Separate charts when measures use different units and cannot be compared clearly on the same axis.
+
+**6. Provide context**
+
+Include relevant time periods, units and data limitations so that the audience does not misinterpret the findings.
+
+### Decluttering Checklist
+
+Before including a visualization in the final presentation, check:
+
+- Does every element help communicate the message?
+- Is the main finding immediately visible?
+- Are the title and axis labels clear?
+- Are the colors used consistently and purposefully?
+- Can any labels, gridlines or legends be removed?
+- Are different units shown clearly?
+- Are data limitations explained where necessary?
+
+The goal is to make every visualization easy to understand within a few seconds and to keep the audience focused on the business message.
    ## 6. From Exploratory to Explanatory Analysis
 
-The analysis notebook may contain many calculations and visualizations.
+The initial Python analysis explored several operational areas of Bean there Done That. It included sales, production, machine performance, inventory, scrapping and delivery time.
 
-The final presentation will not show everything.
+However, the final presentation should not include every calculation or KPI. It should focus on the findings that help answer the main business question:
 
-Only the findings that directly help answer the main business question will be selected:
+**Is Bean there Done That operationally ready to grow next year, and which operational improvements are needed before expanding?**
 
-Is Bean There Done That operationally ready for further growth?
+### Selected Findings
 
-Each selected finding should be transformed into a simple explanatory visual.
+#### Finding 1: E-commerce Sales Change Throughout the Year
 
+**What does the data show?**
 
-## Final Finding Template
+Recorded e-commerce sales value increases sharply from August to September and remains relatively high through December.
 
-For every important finding from the KPI analysis, we will complete the following:
+**Why does it matter?**
 
-### Finding
+Changes in demand may affect production, inventory and delivery operations.
 
-What does the data show?
+**Limitation**
 
-To be completed after the KPI analysis.
+The dataset contains 119,101 exact duplicate rows, and there is no unique order ID. The reliability of the absolute sales totals must be validated before using them to make growth decisions.
 
+**Best visualization:** Line chart of monthly e-commerce sales.
 
-### Why It Matters
+#### Finding 2: Production Output Varies Across Months
 
-Why is this important for the company's ability to grow?
+**What does the data show?**
 
-To be completed after the KPI analysis.
+Monthly production output ranges from approximately 59,578 kg to 72,256 kg.
 
+**Why does it matter?**
 
-### Growth Risk or Opportunity
+Management needs to understand production capacity and its ability to support additional demand.
 
-What could happen if demand increases?
+**Limitation**
 
-To be completed after the KPI analysis.
+The available analysis does not establish the maximum production capacity of the company. Therefore, it cannot yet confirm whether production can or cannot support growth.
 
+**Best visualization:** Line chart of monthly production output.
 
-### Recommended Action
+#### Finding 3: Rejection Rates Differ Between Machines
 
-What should management do?
+**What does the data show?**
 
-To be completed after the KPI analysis.
+Probat Px120 has a recorded rejection rate of 2.54%, compared with 1.28% for Probat P60.
 
+**Why does it matter?**
 
-### Expected Outcome
+The difference may identify an opportunity to investigate production quality and process performance.
 
-What improvement do we expect after the recommended action?
+**Limitation**
 
-To be completed after the KPI analysis.
+The data does not explain the cause of the difference or establish whether both machines operate under comparable conditions.
 
+**Best visualization:** Bar chart comparing rejection rates by machine.
 
-### Best Visualization
+#### Finding 4: Finished Product Scrapping Occurs During the Year
 
-Which graph communicates this finding most clearly?
+**What does the data show?**
 
-To be selected after the KPI analysis.
+The dataset records 48,000 units of scrapped finished product, with scrapping recorded from June to August.
 
+**Why does it matter?**
 
-### Takeaway Title
+Understanding the reasons for scrapping may help management identify opportunities to reduce waste.
 
-The final graph title should communicate the main conclusion rather than only describe the data.
+**Limitation**
 
-To be written after the KPI analysis.
+The available data does not establish the causes or financial impact of all scrapped products.
+
+**Best visualization:** Bar chart of monthly scrapping, supported by a line chart of monthly finished product stock value if needed.
+
+#### Finding 5: Delivery Time Increases in December
+
+**What does the data show?**
+
+Average delivery time is approximately 1.59 days overall and 1.91 days in December.
+
+**Why does it matter?**
+
+Delivery performance should be monitored during periods of high recorded sales.
+
+**Limitation**
+
+The analysis does not establish that higher sales caused longer delivery times.
+
+**Best visualization:** Line chart of monthly average delivery time.
+
+### From Findings to Recommendations
+
+The selected findings will be used to develop recommendations for management. These recommendations should be based on validated evidence and should distinguish confirmed problems from areas that require further investigation.
+
+The final presentation will use only the visualizations that contribute directly to the business story.
