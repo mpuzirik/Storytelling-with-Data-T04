@@ -137,83 +137,69 @@ The final conclusion should distinguish between issues supported by the data and
 
    ## 4. Visual Strategy
 
-The final presentation should use only visualizations that directly support the business story.
+The final presentation will use a small number of focused visualizations. Each visualization must support the main business question and help the CEO understand the company's readiness for growth.
 
-The exact visualizations will be selected after the KPI analysis is complete.
+### Visual 1 - E-commerce Sales Over Time
 
-### Visual 1 - Current Operational Performance
+**Purpose:** Show how e-commerce sales change throughout the year.
 
-Purpose:
-Show the current overall performance of Bean There Done That.
+**Chart type:** Line chart.
 
-Possible visual:
-KPI summary, bar chart, or line chart.
+**Key finding:** Recorded sales value increases sharply from August to September and remains high through December.
 
-Final finding:
-To be added after the KPI analysis.
+**Main message:** Demand appears higher towards the end of the year, so the company should understand whether its operations can support this pattern.
 
+**Important limitation:** The e-commerce dataset contains 119,101 exact duplicate rows. The reliability of the absolute sales totals must be validated.
 
-### Visual 2 - Main Bottleneck
+### Visual 2 - Production Output Over Time
 
-Purpose:
-Show the most important operational issue that could limit future growth.
+**Purpose:** Show how production output changes throughout the year.
 
-Possible visual:
-Bar chart, capacity comparison, or line chart.
+**Chart type:** Line chart.
 
-Final finding:
-To be added after the KPI analysis.
+**Key finding:** Monthly production output ranges from approximately 59,578 kg to 72,256 kg.
 
+**Main message:** Production output varies throughout the year. Further analysis is needed to determine whether production capacity is sufficient for future demand.
 
-### Visual 3 - Second Bottleneck or Improvement Opportunity
+### Visual 3 - Rejection Rate by Roasting Machine
 
-Purpose:
-Show another area that management should improve.
+**Purpose:** Compare production quality indicators for the two roasting machines.
 
-Possible visual:
-Bar chart, heatmap, or line chart.
+**Chart type:** Bar chart.
 
-Final finding:
-To be added after the KPI analysis.
+**Key finding:** Probat Px120 has a rejection rate of 2.54%, while Probat P60 has a rejection rate of 1.28%.
 
+**Main message:** The difference in rejection rates should be investigated to identify possible quality improvement opportunities.
 
-### Visual 4 - Growth Scenario
+**Important limitation:** The data does not establish why the rates differ or whether the machines are directly comparable in their operating conditions.
 
-Purpose:
-Show what could happen if demand increases.
+### Visual 4 - Finished Product Inventory and Scrapping
 
-Possible visual:
-Comparison between current performance and expected performance under higher demand.
+**Purpose:** Show changes in finished product stock value and identify when scrapping was recorded.
 
-Final finding:
-To be added after the KPI analysis.
+**Chart type:** A line chart for monthly stock value, supported by a separate bar chart for monthly scrapping if needed.
 
+**Key finding:** Finished product stock value reaches approximately €1.63 million in May. A total of 48,000 units are recorded as scrapped, with scrapping recorded from June to August.
 
-### Visual 5 - Expected Outcome of Recommendations
+**Main message:** Inventory levels and scrapping should be investigated to understand whether stock management can be improved before expansion.
 
-Purpose:
-Show how the proposed recommendations could improve growth readiness.
+**Important limitation:** Stock value is not the same as physical stock quantity. The two measures should not be combined on the same axis without a clear explanation.
 
-Possible visual:
-Before-and-after comparison.
+### Visual 5 - Delivery Performance Over Time
 
-Final finding:
-To be added after the KPI analysis.
+**Purpose:** Show how average delivery time changes throughout the year.
 
+**Chart type:** Line chart.
 
-## Visual Design Rules
+**Key finding:** Average delivery time is approximately 1.59 days overall and reaches approximately 1.91 days in December.
 
-The final visualizations should:
+**Main message:** Delivery performance should be monitored during periods of higher recorded sales.
 
-- show only information that supports the main message
-- use the correct chart type for the data
-- avoid unnecessary colors
-- avoid unnecessary legends
-- avoid unnecessary borders and gridlines
-- use clear labels
-- highlight the most important information
-- be easy for the CEO and management to understand quickly
+**Important limitation:** A relationship between higher sales and longer delivery times has not yet been established.
 
+### Visual Design Principles
+
+All final
 ## 5. Eliminate Clutter
 
 The final presentation should avoid unnecessary visual elements that make the graphs harder to understand.
