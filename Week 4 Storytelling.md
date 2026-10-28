@@ -61,16 +61,79 @@ This is a preliminary conclusion based on the initial analysis. Further validati
 
 ## 3. Storyboard
 
-The final presentation will follow this structure:
+The presentation will tell a story that helps the CEO understand whether Bean there Done That is ready to grow and what should be improved before expanding.
 
-1. Introduce Bean There Done That and explain why growth readiness is being investigated.
-2. Show the current operational situation using the most important KPIs.
-3. Highlight the areas that are currently performing well.
-4. Present the main operational bottlenecks or improvement opportunities.
-5. Explain what could happen to these areas if demand increases.
-6. Recommend actions to remove or reduce the identified bottlenecks.
-7. Show the expected effect of the recommendations where possible.
-8. Conclude whether Bean There Done That is ready for further growth.
+### 1. Introduce the Business Challenge
+
+Explain that Bean there Done That previously experienced difficulties managing growth and that management wants to understand whether operations can support future expansion.
+
+**Key question:** Is the company operationally ready to grow next year?
+
+### 2. Show How Demand Changes
+
+Present monthly e-commerce sales to show how demand changes throughout the year.
+
+**Initial finding:** E-commerce sales increase sharply from August to September and remain high until December.
+
+**Why it matters:** Changes in demand may affect production, inventory and delivery operations.
+
+**Visualization:** Line chart of monthly e-commerce sales.
+
+**Data limitation:** The dataset contains 119,101 exact duplicate rows, so absolute sales totals must be interpreted with caution.
+
+### 3. Examine Production and Quality
+
+Show monthly production output and rejection rates, then compare the two roasting machines.
+
+**Initial findings:**
+- Monthly production output ranges from approximately 59,578 kg to 72,256 kg.
+- The overall rejection rate is 1.89%.
+- Probat Px120 has a rejection rate of 2.54%, compared with 1.28% for Probat P60.
+
+**Why it matters:** Management needs to understand production performance and quality before increasing demand.
+
+**Visualization:** Line chart of monthly production output and a machine comparison chart.
+
+### 4. Investigate Inventory and Waste
+
+Show monthly finished product stock value and scrapping.
+
+**Initial findings:**
+- Finished product stock value reaches approximately €1.63 million in May.
+- A total of 48,000 units of finished product are recorded as scrapped.
+- Scrapping is recorded in June, July and August.
+
+**Why it matters:** Inventory and waste should be investigated to determine whether improvements are needed before expansion.
+
+**Visualization:** Chart showing monthly finished product inventory and scrapping.
+
+### 5. Evaluate Delivery Performance
+
+Show how average delivery time changes throughout the year and compare it with monthly sales patterns.
+
+**Initial finding:** Average delivery time is 1.59 days overall and increases to approximately 1.91 days in December.
+
+**Why it matters:** Management needs to know whether delivery performance can be maintained when demand is high.
+
+**Visualization:** Line chart of average delivery time by month.
+
+### 6. Present Recommendations
+
+Use the findings to propose practical actions, such as:
+- investigating the causes of finished product scrapping;
+- reviewing quality differences between roasting machines;
+- checking and validating the e-commerce sales records;
+- monitoring delivery performance during periods of high demand.
+
+The recommendations should be refined after the findings have been validated.
+
+### 7. Conclude on Growth Readiness
+
+Bring the findings together to answer the main business question:
+
+**Is Bean there Done That operationally ready to grow next year, and which operational improvements are needed before expanding?**
+
+The final conclusion should distinguish between issues supported by the data and questions that require further investigation.
 
    ## 4. Visual Strategy
 
